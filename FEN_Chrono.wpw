@@ -1,0 +1,430 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Chrono
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Chrono
+ identifier : 0x2767af2f0233be70
+ internal_properties : CAAAAAgAAAB6WD3QcIfNgDuCPEkXiEyE/FKFO2WV34cYxW9ac/VdrYPi1Mvgux9ZOZuwuMN3HDp0Rxl9wvgNsMvrCJeTm/JVth+32oktpHyEmcVb5fd200teyrCgB8sPU9HY7VPOUBx35YovqsuB6r6r3Z6CpS+ybeg9yRkAmi7gqThFMgM/9OpZmDdgqVFIBH4vSsEPsK2gPwi7QPOyickrzFCRAd7UewmPlqb8N1+/szsnfPPZYeBHMiIKuZtGBIWCXpCpRRaOPgUyOau8BnmM/VVhuOlBY31clkc9k2KfNmJ/T6Sld3tCsqN/QvhTlDRSE+IOoKLmMHI7LSiuFtYoeIT6QR544cxn9MIZ21C9KOinDsKjCK5ffTRarwyNMel9n8RJU2CqByR7yYZ8z6ZgHLY5Rt7POo+wwHQyPqUFM81lvoTv4lWn8T/NJrjhVENUVrlpTVSx1CLggEscIefunHHwvO58K/p4dDAgu2eGrmKcL5FbZI+/qPYNXSo695NUNl3TABvTRiIhOImN8RAqmgHE8h7JPz0bqBX1sQtnTh4qXR33F7bYt4xG/FaY96KgLCKevYVKpev/jTJRQEz7sLARYanJq+Ju1XWajp9SVbVx4pCoqvJlOwbBccVO1QvfUszOWlhGMANAgk7yUcL+3h2rxyu6OoKKNKg3Qzr3ua7kGSssT9pQklH82jQD98zTurEuiIKcdi4vVQxt8A==
+ properties :
+  width : 322
+  height : 512
+  heightMin : 534
+ controls :
+  -
+    name : IMG_Heure
+    identifier : 0x2767af2f0236be70
+    internal_properties : CAAAAAgAAABWlnQ/p2Qsw+3nilh/JrT3WFwok1pTt9kO0v0QB4BazDtqjfOeE+DRn2DcKVjOKt8f/6ehbXufJsULoXzt6gtzZLTwCs4I0o8UqDu1oCKj2+VMyF8vaiOZVvu6P/LfonA6YoHE3nBsWJp5D0IhZ4KX1Um9kJ3KrQJuBvQOnJAv/0ZBaMp4aI2+vXURCNjJhyOn5kS1Dpib8L1I39Po4Wk5j8zj5xeCeEDAiLNDPd4l/FkJNxbjjTO2GX8VS6Cf6jV/E7lwXaLp8nKLIzECrE4HkPlUFRVFZQ9k2N4Z5KVRkSFpCHDIF1kvrKcsgyE5A71fg5b2ukfWd+1yw0tfG78aMGDOHrx9b7akdNCnJV88THkE9bbPEGi4f7cv5SgTFTbgqnIqwa3zbxQU5IhQ70w403X2EQe2DPNblQQaPF0oCKsH8MKVJHnfxhFY3LS/Yn/R2mK5hM7j89aQP7q4z3GTqE354T/CpX2kwLpnvArDK7UenA7BxLFVCRXKUj6Xy5+tVJ2nPkqG/D8ULxC+pbPnbzsQMmYE13alZtbtrEdkfybMOr1kqkt0BgwyKh+ZahpZa+mEHJA8i/p10mNog+g0xohZPBHD8UZ8+tQNYckTZK1/C6fBRIB5vDdr1hSHYA1xk8eElXgNjHzG2+8eKrQgIXhyq5WNZHqyo+yIDqbXyj1gRinh+EdneEfHJRXwGFOYKYf5hFv7dA/VSS8eho856Dm3cojF4cm7l9AOnUL7m+VARt5ODZsqnI1pnAxhuakHlAaz2e53Ah4N0BWqHF1gJ1P+v+/0QiZoox7nYBC73K+WiYlEh5z3ZLr1dWdCVeAbulLX9FtSv2ZtWbFIlnHaHnm1
+    properties :
+     x : 79
+     y : 93
+     width : 162
+     height : 181
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SAI_Durée
+    identifier : 0x2767af9702385429
+    internal_properties : CAAAAAgAAAC/gAo5/s8dvy5oYTQpBq8z5o7SOZv1csXqAK16PhVGIr4nZMEvhooo5x+ISheV+9xThA6Vpz/DWDpeaHlatNwAPcpIyVyl+uJddIb2PxytVR4kWAEnvZdyLOg6Jd5xrYEwuPNFLQsS5BgT8UzDvYX2CxVuUNH2qESRvscUsx7ajF/FyoAp3RjhmcS+Js0N9JQhFwIg8dQp8ebkLHVt//eW631p2S1yaeh8LUpspklEPgfiFYVoqgk5Itdpgn6QxLN8I/IqYzms5YRL7DmCwl2CBo3DB2fgZ2HGYjTXj4vJsc9+BqlDBH67fwQo0mqmpry2tTdb+YClB7cYau0nmPP/4CxtvVHNzHY94tCx5AnxPWXWnULtsZu0sjn5/4uXBkDPrw+sjLEa5k8jlAXNZzNUpd+gEi32lPj+EbL7qDfU+b9mY94r52VhtiPT5kYtvSQW+GZXD1G+OeMOboEcqQ1JZWxpFNurOYtYe5ISrKd7lxhoRATZ1TBAvELbYHjJUiUm16KW6KxVHxa82pBU39UXXJAbuCU0/uFLL3P9GYsyJDwNRC+LnB+ohvMOsSpvWE3mdh4ldZH3TTzUPSgFeZBRUAJYZpjao+lWC8o5ffCaLH7ym7LmlzxrkLMR1qnz8NaJt+7alvqiXEv0OUygdBCzbSHKuVj38OnVxRTSBEgKSAo907i1UP9aft7S+MIpw6rRoDLakIGJxbdD2twP1hKcjwOhsV6zbORwmNyJF5v/QKQb47ohkce/avJCTSGMb7ZO7AiV1oAU2ZnbGXgCkiNyAKx7jnhIWR8MifsNtHFbrgv3YIstDNTWc8itR75fY91/jx/hgiMVJamAZsCRHSFstwJc4bDlxS7aIpbvrDiBlNSzs28nMQ042+t9PI3vCryC32RNwqNQabPlKFaFw8YtR1ijU03t5FGq9iZAXaeqkhr+4Kkq7WjqXj2mMLxHANLtq9GRiypa+X6KZurZmM5LWscvaXlvxMAosBPCdpgv55gV4vG+noUGz81dZlvo/WOR51kbVMWJawDFiKQBNnFyS2QreFC24GAvLDHWyIjsHBHE4VccMfDXO8iEnRTj6rH+X2RfQbuhY6A4kfw18VfHaVMaB1CfJWgQCgwUQpzvD/dNNdiYDeVGhptzYRRwqRfHld9Lx+8bnwD2eRT6Xp3ZcdSlbQMlTRcIvygigfSankg44DuDKC9h+Q7PamLHjwqKntBeWRDqNmVQHnMM9+tluboKikm/du84wlSCwp7gQ1SdJaL8x39+lIrjFqM8231hFgyTIRJ2US9qxrUF1R8s6l7e7+HzcrB3wmp3
+    properties :
+     x : 47
+     y : 356
+     width : 226
+     height : 44
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : BTN_Démarrer
+    identifier : 0x2f1941c708c4aa25
+    internal_properties : CAAAAAgAAADW/3Z9XTaF69KUKMKnHt0K/pN3Xkl+Akf00F5CJnfFd6fzjSxDDM/zF+JWESQmtVhFQTifHkueEtIhNzv46/7s85x8E+oW1pcP1dX/3k1eCNHSr5Vg2hzMUfciCK24+SGEaEmVVZbgkqs88eFNrZHBOCeXweX+Cln4vlLJ3mlH7vNy+wK9vB0vXj82rhgK4Pmwlxuv35ifjIjYj0yddwcbUeUoX1dPNdkywVYMD/KHmtJBOzzTdvQq79hktXUK7QkLuiOUegODVUjyv4yUOSN6yVK3YDkRk0TgvqYyyHLOu5JjEpSznXVykLIy7AOXC4f6e2fsnx/ppbpObIQHm7hWd8YRn3rUZGihQMFWIgI4cY8ODowH792wNFe/fkGUO2uL9Ipc6bRQjH/dpT+UWcgJGB1Vd/8REWtKNlkgWM0W93xF7gOBG195e4F1I0ux5JNCtAiBOOUsMybQTYE98GhqygpUM3UrBoQfksP+698nuGljgg589FJ9yibqFh2xmH++yR/VvMp0fx8k9LeiCqBxjRviqzPAqMHGCaOXEAICZCXm7nBsrYeWrJur2ZLI4GZeVGzsc3WQAbcDol1GnBY49klrtoYkNO0cMTjkNw7vceZNdncTad4TL+/BYXiCXYHL0P6nP8TCJwf4+aLz5VGWhm27ScN4oc7euyr+aFx8Xad9coiQFWXrzhsp4O2Zh2qoghe5v/jdmL7HCZx8eDz8mMTSrSPQGh7rMdtvyhHmviyfuCW0wSUiffxYX6QJnPWjrESjPxJUDhf8txsbgDo6M+UUSQuqi6eYpQ51iE5tXYDUm9IaKZEV5jnJPh1hMT5Zp2rDOtSKoA/7FsfD574CzkuvH0mvPfyCLcO/Om0Xuhkxe3U9LTDGIUTNOG6n5XlOvEU3vOtVwHD8YdZ4eiEqbtyCIaM26pfKWtzuWafXTJVs/cmfPw+hjOcJDbRVg6RnhbbiIcv/Pg==
+    properties :
+     x : 8
+     y : 7
+     width : 150
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //Si on a déjà un temps de début de chronomètre, c'est que l'on reprend le calcul du temps après un stop
+         SI gbPause ALORS
+         	
+         	//Durée à ne pas comptabiliser en millisecondes (c'est une durée cumulée pour tous les stops effectués)
+         	duDurée est une duree = ChronoFin(2)
+         	gduTempsNonCompté += duDurée
+         	gbPause = Faux	
+         	
+         SINON
+         	
+         	//Sinon on initialise le début du chrono
+         	ChronoDébut(1)
+         	gbChronoDémarré = vrai 
+         	gnNumTimer = timersys(Durée,50)
+         	
+         FIN
+         
+         BTN_Arrêter..Etat = Actif
+         BTN_Pause..Etat = Actif
+         BTN_Démarrer..Etat = grise
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Pause
+    identifier : 0x2f1941e508d42118
+    internal_properties : CAAAAAgAAAAgzglVhCfU5fmtu98YimVvxyDeIKswSY4uIefg14xpxMFj+RDBGvPnt66z7Bnr9ElJ5wtDZ8Sx1Cr5yN0GYTOiltLGqa5oApGaoQkhf4BRN47dO8Xd9l/C9wCmuc7IolT5HcSBnLKOTzyTi0v4K/p00tv8x/l0+BE45jMzF3hanhkbMELZ6omIxd/5L3pBVT5yvR4cQLal9+DqWfsCKfFCKL5Fiqa0MgzVN2edbGAzv76dTsUBhlT8Tfat4aKJPcqWA4UOKZBA5R3lCt3ZC7Bh+6pVpECs7nZ1LpTLXNIk3IOaFr0Tc814ZwExGhITS5ejZbgNyI+q0qaCxlXU9N8HEzXpHzuISbZ+gtRK+A2i8OdE8L2Shfa+6kgu/tnoOFpZAo1Otm6M3BF2gbYs0JLHow/N1keWHDQSeVvJngeCTl/dPbmxOkI3aIiudGpGsKlMOVU1MOzcYy+wxfJKgu+1XAoDd/Trde2SrUr1g3waPFthLnbneJVxlt7TO2WUcSVCedHvu/qPl02OYfQEm1EVy5XCF/giuwUS4UxU+EVtRGvw0NKVRWhWMvVysIbNv9x4GsjE/FdxgRGZ+6oYjUUYYN/nZlusnZU8fVf35U3q2ardFmOwS3GZWX1ACAwRIGOpGl5j1jAJr+c8UL3zCOiwfqGJ//jS9FBmh+WRVn9fDVNNZnjVgd4RzveygRtamvTkUu+FNgIkwO6rkJ8ydz9Wktpgg2SEvbJLNZ7+RIDzzLwTsGEVG6oUO16p+LISK/kHDMpBSmBd9BuclNCr9ztcd02Ktwjo5u8sXXNCysM4A+hgMxZl7VCHPHHXUwnM2Kky+znHUdQfs8MKlPj+AOnRIDEh05QhCIZ33DvVs89RN8x+RnzdlTCCiyoGTW3x10TN3C8tQVGgS5V1xsYhDPuJQIVbvPzeRJJdkG0zk1tHTOEkcz8tHHndrDa7ge0485WfS49H1cI=
+    properties :
+     x : 164
+     y : 7
+     width : 150
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         //On suspend le chronomètre
+         gbPause = Vrai
+         
+         //On chronomètre le temps écoulé qu'on ne devra pas comptabiliser
+         ChronoDébut(2)
+         
+         BTN_Pause..Etat = Grisé
+         BTN_Démarrer..Etat = actif
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Arrêter
+    identifier : 0x2f1941f708e1670d
+    internal_properties : CAAAAAgAAADCy2IJLoyWQBX3S52Cn9Jp7WYQP42CHoPQLHQoHAUHNYlJwyrBTjf2nWCC574+gZYpNJQLQrXuyjLhgTRJE2Y9nLTu1fJVgVNbpwk7qkn+yMPCFzmFfZ4N4DUN9fxkfmvPOjmtLkuXsk7L5yblPthvk7Ex9RdToNe9r7DIAzJtGs6V6ZW3UTKwT5jjIOgLTmleUoDA1GQZbKgYzwz9tyd7caXo/zcPVbnSQZbM7zInerLBu1yzNtTKj1gkNVXKDamr+iM02gOjtShyP4w0OQOa6ZJ3wFnRM6SA/iay6HIu27IjkjSTXZXSsLJybCNXq+caOycMf1+JBRoOrITnG5i2lwaR/xrURMgBgEHWwsLYUa9Ozqznr70QlJd//iFU2wsrNMq8iTQwLJ+d5f80Gejp+J0Vl19RcYsqthmg+E1211zFLqNhm3+Z24G146sxxPMiNAjhWKVM00YQDYFdsIiKqorU09WrZqQ/EkM+u0+XCPmzcj5MBGJt2rZ6xm2hCM+OGQ+FDJpEr680hCfyuhCB3esS2wMQuDFWmTMHoHIyNDU2HqC8/RcGvOt7ySI40Lau5BycQwUg8YdTcs0WjIZIBllbpha0xF3swUiUBz5fgbad5ucjea7D/78RkcgyDREb4K4XT9TSFxfIyVLDFcFmlr2rudNIsT4uyzruuMws7feNInig5TUbnis5UL2J9/r4EofpjwgtSE7XGYwMqKxM6FTCnbOg6s67wWufWkHWjjzvqNUEkfXSjcyoT3Q5zEUz1i5KhSFgfnn+njjymn/QtFF/TieyXpf6o5H9cbMFqOG9e1QUle+WCwM645PL9kjDKvbSL2+r3nFsQ+0U/2CzDlvW7cMd66x+zQsfqg0BXBf0taVdjW7r2557UYahW5eozlEjoG+aCb1z1v8T4yD9Br5U72lAqDU0RMYMn4mdkn+Om6sjy7fL5B/Pv7arE+Iv7ZuOdb/rKg==
+    properties :
+     x : 89
+     y : 438
+     width : 156
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         //Arrêt du chrono
+         FinTimerSys(gnNumTimer)
+         
+         si gbChronoDémarré = vrai alors
+         	ChronoFin(1)
+         	gbChronoDémarré = faux
+         	
+         fin
+         
+         //Ré-initialisation 
+         gduTempsNonCompté = 0
+         gbpause = faux
+         
+         SAI_Durée = "00:00:00"
+         
+         InitialiseAiguilles()
+         
+         
+         BTN_Arrêter..Etat = Grisé
+         BTN_Pause..Etat = Grisé
+         BTN_Démarrer..Etat = actif
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2767af2f0235be70
+  internal_properties : CAAAAAgAAAB15A+jw88vqWnbldIzCSwigf4lTIOYlg0MS9sUvtLWAnQXiA4S5l5bJmeurTLdKDOq0asYVtAaaxXXuVU4jYuv6BxwdH6gOUr0+7by9SjNlBRqGm16y22uttuSUtyLeWvxorG2kFlfTGbHLTLYARBOc870jxY54VtuDKDpb/N0GxU3Hx4KohUxsrifH66lRFdp0z5n26ksbRvj8R3xd7R8A77wMfUckISd2XzkOcI1eJ5Tlynlc0jSliXLtXbYWvCY2fR1q/zLOMEhKLxTwujb0cY5jizsHN0=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADDNcVo1OmfcBt8DAQe5KIEYff9GvVJ3rswmi7Y4eSSLPPsowxvw2EHHELoMr1+S2K6sQOAgj+bSIfUU2hKchamhly5uvBBstjigbguCmpR+jvoShIH8x2wi/6fBA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAr9HvXO1GdikBjy7wWfQMq86vHQjn3bhtyNF7YVnu1EFRHU//zXWBj5SQ6Kph/QE9E3/Ue6bk+FASIEHrvP5ak/IOfdS/c8/fbRu7r
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      //Temps à ne pas comptabiliser
+      gduTempsNonCompté est une durée
+      
+      //Est-ce que l'on est en pause ?
+      gbPause est un booleen
+      
+      //Numéro du timer lancé
+      gnNumTimer est un entier
+      
+      gbChronoDémarré est un booléen
+   -
+     code : |1+
+      //Dessin des aiguilles à 0
+      InitialiseAiguilles()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      FinTimerSys(gnNumTimer)
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : Durée
+     procedure_id : 1686509824642839193
+     type_code : 14
+     code : |1+
+      //Affiche une durée sous forme d'aiguille analogique dans un champ image
+      // Syntaxe :
+      //Durée ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure Durée()
+      
+      nXCentre, nYCentre			sont des entiers				//Coordonnées du centre du chrono
+      sNomChampHeure				est une chaine = IMG_Heure..nom	//Nom du champ qui va afficher les aiguilles
+      nLongueurAiguilleMinutes	est un entier					//Longueur de l'aiguille des minutes
+      duDurée						est une duree 					//Durée (différence) à afficher
+      
+      si gbPause alors
+      	retour
+      FIN
+      
+      //Calcul des coordonnées du centre du chrono	
+      nXCentre = {sNomChampHeure,indChamp}..Largeur/2
+      nYCentre = ({sNomChampHeure,indChamp}..hauteur+20)/2 
+      
+      //Calcul de la longueur de l'aiguille des minutes (marge de 30 sur le bord le plus petit)
+      nLongueurAiguilleMinutes = min({sNomChampHeure,indChamp}..Largeur/2,{sNomChampHeure,indChamp}..hauteur/2)-30
+      
+      //Nouveau dessin
+      dDebutDessin(sNomChampHeure,dEffacer)
+      
+      //Durée écoulée
+      duDurée = ChronoValeur(1)
+      
+      //Déduit la durée à ne pas comptabiliser
+      duDurée = duDurée - gduTempsNonCompté
+      
+      //Dessin des aiguilles
+      DessineHeures(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      DessineMinutes(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      DessineSecondes(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      
+      //Affichage de la durée écoulée	
+      SAI_Durée = DuréeVersChaîne(duDurée, "HH:MM:SS")
+     type : 458752
+   -
+     name : DessineHeures
+     procedure_id : 1686544510798410189
+     type_code : 14
+     code : |1-
+      // Résumé : Dessine l'aiguille des heures
+      // Syntaxe :
+      //DessineHeures (<duDurée>, <nLongueurAiguilleMinutes>, <nXCentre>, <nYCentre>)
+      //
+      // Paramètres :
+      //	duDurée : Durée à représenter
+      //	nLongueurAiguilleMinutes : Longueur de la plus grande aiguille, celle des minutes
+      //	nXCentre : Abscisse du centre du chrono
+      //	nYCentre : Ordonnée du centre du chrono
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure DessineHeures(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      
+      nAngle					est un reel						//Angle pour l' aiguille
+      nCouleurAiguille 		est un entier = RougeFoncé		//Couleur de l'aiguille
+      nLongueurAiguilleHeures est un entier 					//Longueur de l'aiguille des heures
+      rX, rY 					sont des reels					//Coordonnées du bout de l'aiguille
+      
+      //Pour l'aiguille des heures : modulo 12, et produit en croix de 12 par rapport à 360 (360°)
+      //+ 90° pour aller à 12h
+      nAngle = modulo(duDurée..Heure,12)*360/12+90
+      
+      //Aiguille des heures légèrement plus courte que celle des minutes
+      nLongueurAiguilleHeures = nLongueurAiguilleMinutes-20
+      
+      //Calcul des coordonnées du bout de l'aiguille
+      rX = nLongueurAiguilleHeures*Cosinus(nAngle) 
+      rY = nLongueurAiguilleHeures*Sinus(nAngle)
+      
+      // Dessin du trait de l'aiguille des heures (épaisseur 4)	
+      dLigne(nXCentre, nYCentre, nXCentre - rX, nYCentre - rY, nCouleurAiguille, 7)
+     type : 458752
+   -
+     name : DessineMinutes
+     procedure_id : 1686545215173144764
+     type_code : 14
+     code : |1-
+      // Résumé : Dessine l'aiguille des minutes
+      // Syntaxe :
+      //DessineMinutes (<duDuree>, <nLongueurAiguilleMinutes>, <nXCentre>, <nYCentre>)
+      //
+      // Paramètres :
+      //	duDuree : Durée à représenter
+      //	nLongueurAiguilleMinutes : Longueur de la plus longue aiguille, celle des minutes
+      //	nXCentre : Abscisse du centre du chrono
+      //	nYCentre : Ordonnée du centre du chrono
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure DessineMinutes(duDuree ,nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      
+      nAngle					est un reel						//Angle pour l' aiguille des minutes
+      nCouleurAiguille 		est un entier = RougeFoncé		//Couleur de l'aiguille
+      rX, rY 					sont des reels					//Coordonnées du bout de l'aiguille
+      
+      //Pour l'aiguille des minutes : produit en croix de 60 par rapport à 360 (360°)
+      //+ 90° pour aller à 12h	
+      nAngle = duDuree..Minute*360/60+90
+      
+      //Calcul des coordonnées du bout de l'aiguille
+      rX = nLongueurAiguilleMinutes*Cosinus(nAngle) 
+      rY = nLongueurAiguilleMinutes*Sinus(nAngle)
+      
+      //Dessin du trait de l'aiguille des minutes (épaisseur 2)	
+      dLigne(nXCentre , nYCentre , nXCentre - rX, nYCentre - rY , nCouleurAiguille,4)
+     type : 458752
+   -
+     name : DessineSecondes
+     procedure_id : 1686546061281767893
+     type_code : 14
+     code : |1-
+      // Résumé : Dessine l'aiguille des secondes
+      // Syntaxe :
+      //DessineSecondes (<duDurée>, <nLongueurAiguilleMinutes>, <nXCentre>, <nYCentre>)
+      //
+      // Paramètres :
+      //	duDurée :  Durée à représenter
+      //	nLongueurAiguilleMinutes : Longueur de la plus longue aiguille, celle des minutes
+      //	nXCentre : Abscisse du centre du chrono
+      //	nYCentre : Ordonnée du centre du chrono
+      // Valeur de retour :
+      // 	Aucune
+      
+      
+      Procédure DessineSecondes(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      
+      nAngle					est un reel						//Angle pour l' aiguille
+      nCouleurAiguille 		est un entier = RougeFoncé		//Couleur de l'aiguille
+      rX, rY 					sont des reels					//Coordonnées du bout de l'aiguille
+      
+      
+      //Pour l'aiguille des secondes : produit en croix de 60 par rapport à 360 (360°)
+      //+ 90° pour aller à 12h	
+      nAngle = duDurée..Seconde*360/60+90
+      
+      //Calcul des coordonnées du bout de l'aiguille
+      //NB : Longueur de l'aiguille des secondes identique à celle des minutes
+      rX = nLongueurAiguilleMinutes*Cosinus(nAngle) 
+      rY = nLongueurAiguilleMinutes*Sinus(nAngle)
+      
+      //Dessin du trait de l'aiguille des secondes (épaisseur 1)
+      dLigne(nXCentre , nYCentre , nXCentre - rX, nYCentre - rY, nCouleurAiguille, 2)
+     type : 458752
+   -
+     name : InitialiseAiguilles
+     procedure_id : 1692508704255184582
+     type_code : 14
+     code : |1-
+      // Résumé : Dessine les aiguilles lorsqu'il n'y a encore aucune durée calculée
+      // Syntaxe :
+      //InitialiseAiguilles ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure InitialiseAiguilles()
+      
+      nXCentre, nYCentre			sont des entiers				//Coordonnées du centre du chrono
+      sNomChampHeure				est une chaine = IMG_Heure..nom	//Nom du champ qui va afficher les aiguilles
+      nLongueurAiguilleMinutes	est un entier					//Longueur de l'aiguille des minutes
+      duDurée est une durée
+      
+      //Calcul des coordonnées du centre du chrono	
+      nXCentre = {sNomChampHeure,indChamp}..Largeur/2
+      nYCentre = ({sNomChampHeure,indChamp}..Hauteur+20)/2 
+      
+      //Calcul de la longueur de l'aiguille des minutes (marge de 30 sur le bord le plus petit)
+      nLongueurAiguilleMinutes = Min({sNomChampHeure,indChamp}..Largeur/2,{sNomChampHeure,indChamp}..Hauteur/2)-30
+      
+      //Nouveau dessin
+      dDébutDessin(sNomChampHeure,dEffacer)
+      
+      //Dessin des aiguilles 
+      dessineHeures(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      DessineMinutes(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+      DessineSecondes(duDurée, nLongueurAiguilleMinutes, nXCentre, nYCentre)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ActivVista_0_D_12_30_04__27_11_2006
+resources :
+ string_res :
+  identifier : 0x1fc5038d07f90b2c
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Chrono.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
